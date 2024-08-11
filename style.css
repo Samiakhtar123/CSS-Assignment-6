@@ -1,0 +1,201 @@
+body {
+    background-image: url(./shara\ desert.jpg);
+    background-size:105%;
+}
+.h1{
+    position: relative;
+    font-size: 80px;
+    color: aliceblue;
+    top: 140px;
+    left: 50px;
+}
+.para{
+    color: aliceblue;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.button{
+    display: inline;
+    position: relative;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 70px;
+    left: 50px;
+    
+}
+.img{
+    display: inline-block;
+    position: relative;
+    background-image: url(./logo.png);
+    background-size: contain;
+    height: 50px;
+    width: 55px;
+    margin-left: 50px;
+    margin-top: 25px;
+    top: -290px;
+    left: -180px;
+}
+
+.nav1{
+    position: absolute;
+    right: 375px;
+    top: 45px;
+    color: white;
+}
+.nav2{
+    position: absolute;
+    right: 275px;
+    top: 45px;
+    color: white;
+}
+.nav3{
+    position: absolute;
+    right: 175px;
+    top: 45px;
+    color: white;
+}
+
+.toggle{
+        display: inline-block;
+        position: absolute;
+        right: 60px;
+        top: 40px;
+        background-image: url(./menuiconimg.png);
+        background-size: cover;
+        height: 24px;
+        width: 24px;
+}
+
+.toggle:hover{
+    background-image: url(./menuiconvid.gif);
+}
+
+.div{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.container1{
+    padding-top: 25px;
+    padding-left: 5px;
+    background-size: cover;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 13px;
+
+}
+
+@media (min-width: 20px ) and (max-width: 480px ){
+    .h1{
+        position: relative;
+        font-size: 80px;
+        color: aliceblue;
+        top: 140px;
+        left: 50px;
+    }
+    .para{
+        color: aliceblue;
+        position: relative;
+        top: 100px;
+        left: 50px;
+    }
+    .button{
+        display: inline;
+        position: relative;
+        font-weight: bold;
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        top: 70px;
+        left: 50px;
+        
+    }
+    .img{
+        display: inline-block;
+        position: relative;
+        background-image: url(./logo.png);
+        background-size: contain;
+        height: 50px;
+        width: 55px;
+        margin-left: 50px;
+        margin-top: 25px;
+        top: -240px;
+        left: -180px;
+    }
+    .nav1{
+        position: absolute;
+        right: 375px;
+        top: 45px;
+        color: white;
+        transition: color 0.3s ease-in-out;
+    }
+    .nav2{
+        position: absolute;
+        right: 275px;
+        top: 45px;
+        color: white;
+    }
+    .nav3{
+        position: absolute;
+        right: 175px;
+        top: 45px;
+        color: white;
+    }
+    .toggle{
+            display: inline-block;
+            position: absolute;
+            right: 60px;
+            top: 40px;
+            background-image: url(./menuiconimg.png);
+            background-size: cover;
+            height: 24px;
+            width: 24px;
+    }
+    
+    .toggle:hover{
+        background-image: url(./menuiconvid.gif);
+    }
+    
+    .div{
+        display: flex;
+        position: absolute;
+        right: 50px;
+        top: 100px;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 250px 250px;
+        row-gap: 25px;
+        column-gap: 25px;
+    }
+    
+    .container1{
+        padding-top: 25px;
+        padding-left: 5px;
+        background-size: cover;
+        border-radius: 30px;
+        color: aliceblue;
+        font-size: 13px;
+    
+    }
+}
+
